@@ -1,2 +1,2 @@
 # Hangman
-Project_2 - Hangman
+Project_3 - Hangman
