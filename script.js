@@ -68,7 +68,7 @@ function checkLetter(letterEntered) {
     if (guessedLetters == array[0].length) {
         document.getElementById("output").style.color = "gold";
         document.getElementById("output").style.fontSize = "40px";
-        document.getElementById("output").innerHTML = " Congratulations! You won ! &#129299;";
+        document.getElementById("output").innerHTML = " You won ! &#129299;";
         let output = document.getElementById("output");
         output.style.height = "0px";
         output.style.width = "600px";
@@ -122,7 +122,7 @@ function drawLimbs() {
         ctx.arc(210, 153, 1, 3, 2 * Math.PI);
         document.getElementById("output").style.color = "gold";
         document.getElementById("output").style.fontSize = "40px";
-        document.getElementById("output").innerHTML = " You lost! &#128533;";
+        document.getElementById("output").innerHTML = " You lost ! &#128533;";
         let output = document.getElementById("output");
         output.style.height = "0px";
         output.style.width = "600px";
